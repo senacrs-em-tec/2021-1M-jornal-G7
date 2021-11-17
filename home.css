@@ -304,7 +304,10 @@ footer{
 @media only screen and (min-width: 1025px) {
     #nice{
       display: none;
-    }}
+    }
+  #propa{
+    display: none;
+  }}
    
     @media (min-width: 1200px){
 #cont {
@@ -516,7 +519,7 @@ footer{
             }
             #propa{
             
-                height: 100px;
+                height: 100%;
                 margin-top: 50px;
             }
         }
