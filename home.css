@@ -518,8 +518,11 @@ footer{
                 text-align: center;
             }
             #propa{
-            
-                height: 100%;
+              height: 500px;
+            }
+            #propa img{
+             width: 100%;
+            height: 50%;
                 margin-top: 50px;
             }
         }
