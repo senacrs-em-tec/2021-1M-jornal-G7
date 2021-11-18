@@ -184,14 +184,12 @@ cursor: pointer;
 }
 #a{
     width: 500px;
-    
-   
     background-size: 500px;
     height: 210px;
     float: left;
     margin-right: 100px;
    
-    margin-left: 80px;
+    margin-left: 2%;
     margin-right: 40px;
 }
 #a img{
