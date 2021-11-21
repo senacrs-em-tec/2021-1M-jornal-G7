@@ -200,11 +200,14 @@ cursor: pointer;
 }
  #link{
      display: block;
-    width: 500px;
+    width: 450px;
      padding-top: 30%;
      color: white;
      font-family: 'Zen Antique Soft', serif;
-     text-shadow: 3px 2px 2px #000000
+     text-shadow: 3px 2px 2px #000000;
+     text-align: justify;
+     margin: 1%;
+
  }
  #b {
     width: 300px;
@@ -219,6 +222,7 @@ cursor: pointer;
 #b a{
   color: white;
   font-size: 12px;
+
 
 }
 #b img{
@@ -261,6 +265,7 @@ cursor: pointer;
   color: white;
   font-size: 12px;
   margin-top: 30%;
+  
 }
 .padding{
   padding-top: 15%;
