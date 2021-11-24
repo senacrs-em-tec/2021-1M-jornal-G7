@@ -188,9 +188,8 @@ cursor: pointer;
     height: 210px;
     float: left;
     margin-right: 100px;
-   
-    margin-left: 2%;
-    margin-right: 40px;
+    margin-left: 14%;
+    margin-right: 10px;
 }
 #a img{
   width: 500px;
@@ -214,8 +213,8 @@ cursor: pointer;
     float: right;
     background-position: center;
     height: 100px;
-    margin-left: 40px;
-    margin-right: 80px;
+    margin-left: 10px;
+    margin-right: 14%;
      font-family: 'Zen Antique Soft', serif;
      text-shadow: 3px 2px 2px #000000
 }
@@ -244,8 +243,8 @@ cursor: pointer;
   float: right;
   margin-top: 10px;
   height: 100px;
-  margin-left: 40px;
-  margin-right: 80px;
+  margin-left: 10px;
+  margin-right: 14%;
    font-family: 'Zen Antique Soft', serif;
    text-shadow: 3px 2px 2px #000000
 }
