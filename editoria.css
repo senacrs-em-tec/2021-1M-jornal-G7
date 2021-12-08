@@ -348,6 +348,18 @@ margin-bottom: 5%;
   
   
 }
+.col-6 h4{
+  display: block;
+  width: 100%;
+  
+  background-color:black;
+  color: white;
+ 
+  font-family: 'Zen Antique', serif;
+  height: 60px;
+  
+  
+}
 #col1 a{
   color: #000000;
   text-align: justify;
@@ -372,13 +384,13 @@ padding: 15px;
 #col2 h4{
   display: block;
   width: 100%;
-  font-size: 12px;
+  
   background-color:black;
   color: white;
-  text-align: justify;
+ 
   font-family: 'Zen Antique', serif;
-  height: 50px; 
-  padding: 5px;
+  height: 60px;
+  
 }
 #col2 a{
   color: #000000;
