@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="noticia.css">
+
+    <title>ODINEWS</title>
+  </head>
+  <body>
+    <header>
+   
+      
+      <div class="row">
+        <div class="col">
+          <div id="nav" >
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+              
+              <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+          
+              <li><a href="home.html">Home</a></li>
+              <li><a href="editoria.html">Editoria</a></li>
+              <li><a href="noticia.html">Notícia</a></li>
+          
+            </ul>
+          
+          </nav>
+        </div>
+        </div>
+        <div class="col-6">
+          <h1 id="hi" >ODINEWS</h1>
+        </div>
+        <div class="col">
+          <img id="nice" src="odn (5).png" alt="">
+      <div class="search-box" >
+        <input class="search-txt" type="text" name="" placeholder="pesquisar">
+        <a class="search-btn" href="#">
+            <i class="fas fa-search"></i>
+        </a>
+        </div>
+        </div>
+        </header>
+        <main>
+          <div id="bamos" class="container">
+          <h1 id="titulo-not">  Pandemia o que afetou? </h1>
+          <h6 id="por">Por Lucas Rodrigues</h6>
+          <div class="text-center">
+            <img src="data:image/jpeg;base64,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" class="rounded" alt="...">
+            </div>
+            <p> As notícias que vem dominando são referentes ao vírus covid 19, também sobre economia mundial e do nosso país. </p>
+            <br>
+            <p> As notícias que costumam ter mais espaço nos jornais são as que envolvem saúde do povo e sobre economia.  </p>
+            <br>
+            <p> Reflexões que podem ser formadas com essas notícias que temos sobre a covid 19 que se tornou uma pandemia global é a incompetência de alguns políticos com a saúde pública do seu país. Em termos sociais isso é uma coisa péssima pro caráter do político que acaba mostrando o seu verdadeiro ser quando recusa algo que salvaria muitas vidas. E sobre a economia as reflexões que podem ser feitas são as altas taxas que andam tendo os altos impostos e a inflação enorme. Isso socialmente acaba com um país deixando o indefeso economicamente.   </p>
+            </div>
+          
+            <div id="vdlm" class="container">
+            <h3>Videos relacionados</h3>
+            <iframe id="a" width="200" height="100" src="https://www.youtube.com/embed/iCXp_ic4p_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="b" width="200" height="100" src="https://www.youtube.com/embed/WGZFBePibF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="200" height="100" src="https://www.youtube.com/embed/D8xQel1nhxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="c" width="200" height="100" src="https://www.youtube.com/embed/5I66JlRAYJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="d" width="200" height="100" src="https://www.youtube.com/embed/84YCCEh6EhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="e" width="200" height="100" src="https://www.youtube.com/embed/POalSeti9cA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="leiamais" class="container">
+              <h3>leia mais</h3>
+              <div class="tec" >
+              <a href="https://www.tecmundo.com.br/tecnologia">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet enim quis tortor semper varius.</a>
+              <img src="https://img.freepik.com/fotos-gratis/circuito-de-tecnologia-azul-e-roxo_73426-205.jpg?size=626&ext=jpg" alt="">
+              
+                <a href="https://www.tecmundo.com.br/tecnologia">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet enim quis tortor semper.</a>
+                <img id="img" src="https://img.freepik.com/fotos-gratis/circuito-de-tecnologia-azul-e-roxo_73426-205.jpg?size=626&ext=jpg" alt="">
+            </div>
+          </div>
+          
+            </main>
+            <footer>
+              <h4>Desenvolvedores:</h4>
+              <p id="integrantes">Davi Davicenzi; Guilherme Mileski; Gustavo Muller; Lucas Correa; Valmir de Oliveira</p>
+              <img id="boa" src="odn (4).png" alt="">
+            </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="noticia.js"></script>
+  </body>
+</html>
