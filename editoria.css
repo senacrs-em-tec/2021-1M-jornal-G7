@@ -13,6 +13,9 @@ header{
     width: 100%;
    
 }
+a{
+  text-decoration: underline;
+}
  
 #hi {
 
@@ -276,7 +279,7 @@ cursor: pointer;
 }
 #mais{
   text-align: center;
-  margin-top: 40%;
+  margin-top: 30%;
   font-family: 'Zen Antique', serif;
   background-color:white;
  width: 300px;
